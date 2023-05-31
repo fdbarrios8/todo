@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex; 
+    height: 75px;
+    background: coral;
+    /* Spread out the elements inside the header. */
+    justify-content: space-between;
+    /* Align items vertically in the center. */
+    align-items: center;
+    padding: 10px;
+  }
+
+   
+  nav{
+    padding: 15px 20px 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: red  ;
+  }
+
+  nav a{
+    font-weight: 600;
+    margin-right: 10px;
+  }
+
+  ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+li{
+    padding-left: 100px;
+    transition: .3s ease;
+    color: #fafcf5;
+}
+
+li a{
+    text-decoration: none;
+    transition: .3s ease;
+    color: rgb(219, 125, 9);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+a:focus{
+  color: rgb(255, 255, 255);
+}
